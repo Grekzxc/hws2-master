@@ -1,20 +1,16 @@
 .input:focus {
+    outline: none;
+    border: #fff solid 2px;
 }
 
-.input {
-}
+.input {}
 
-.inputWrapper {
-}
+.inputWrapper {}
 
-.superInput {
-}
+.superInput {}
 
-.errorInput {
-}
+.errorInput {}
 
-.errorInput:focus {
-}
+.errorInput:focus {}
 
-.error {
-}
+.error {}
