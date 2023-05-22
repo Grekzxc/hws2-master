@@ -10,6 +10,7 @@ type PropsType = {
 }
 
 export const Sidebar: FC<PropsType> = ({ open, handleClose }) => {
+
     const sidebarClass = s.sidebar
         + (open ? ' ' + s.open : '')
     return (
@@ -27,11 +28,14 @@ export const Sidebar: FC<PropsType> = ({ open, handleClose }) => {
                 </button>
 
                 <nav id={'hw5-menu'} className={s.nav}>
+
                     <NavLink
+
                         id={'hw5-pre-junior-link'}
                         to={PATH.PRE_JUNIOR}
                         onClick={handleClose}
-                        className={PATH.PRE_JUNIOR ? s.active : ''} // делает студент
+                        className={PATH.PRE_JUNIOR ? s.active : ''
+                        } // делает студент
                     >
                         Pre-junior
                     </NavLink>
