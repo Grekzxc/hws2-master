@@ -1,11 +1,14 @@
-.spanBlock {
-}
+.spanBlock {}
 
 .span {
+    display: inline-block;
+
+    height: 31px;
+    padding-top: 10px;
+    cursor: pointer;
+
 }
 
-.input {
-}
+.input {}
 
-.pen {
-}
+.pen {}
